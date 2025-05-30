@@ -39,6 +39,7 @@ app.post('/', async (req, res) => {
 
       const resolutions = {
         '360p': formats.find(format => format.qualityLabel === '360p'),
+        '720p': formats.find(format => format.qualityLabel === '720p'),
         '1080p': formats.find(format => format.qualityLabel === '1080p')
       };
 
